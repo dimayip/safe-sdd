@@ -1,0 +1,181 @@
+{
+  "schema_version": "2.0",
+  "structure_note": "扁平存储 + 多维领域标签。每条契约在 contracts/ 下只存一份文件(SSOT)；domains 是标签数组(N:N)，不是目录。跨领域契约靠多个 domains 标签复用，绝不重复维护。skill 匹配流程：按需求识别 domains(可多个) -> 按 domains 过滤 -> 用 keywords 二次精排。",
+  "domains": [
+    "universal",
+    "distributed",
+    "ml-serving",
+    "recommendation",
+    "ecommerce",
+    "engineering",
+    "data-pipeline",
+    "realtime-iot",
+    "multi-tenancy",
+    "media-streaming",
+    "storage",
+    "observability"
+  ],
+  "contracts": [
+    {
+      "id": "idempotency",
+      "file": "contracts/idempotency.md",
+      "title": "幂等性",
+      "domains": ["universal", "distributed", "ml-serving", "recommendation", "ecommerce", "engineering", "data-pipeline", "realtime-iot"],
+      "keywords": ["幂等", "重复请求", "重试", "去重", "重复提交", "唯一键", "重复扣款", "重复消费"]
+    },
+    {
+      "id": "concurrency",
+      "file": "contracts/concurrency.md",
+      "title": "并发竞态",
+      "domains": ["universal", "distributed", "ecommerce"],
+      "keywords": ["并发", "竞态", "锁", "丢更新", "脏读", "乐观锁", "悲观锁", "CAS", "原子", "计数器"]
+    },
+    {
+      "id": "data-consistency",
+      "file": "contracts/data-consistency.md",
+      "title": "数据一致性",
+      "domains": ["universal", "distributed", "ecommerce", "ml-serving", "data-pipeline"],
+      "keywords": ["一致性", "事务", "跨表", "跨服务", "最终一致", "勾稽", "脏数据", "半成品", "补偿"]
+    },
+    {
+      "id": "boundary-nullness",
+      "file": "contracts/boundary-nullness.md",
+      "title": "边界与空值",
+      "domains": ["universal", "engineering"],
+      "keywords": ["校验", "空值", "null", "边界", "越界", "非法输入", "参数校验", "空集合", "除零", "溢出"]
+    },
+    {
+      "id": "failure-retry",
+      "file": "contracts/failure-retry.md",
+      "title": "失败与重试",
+      "domains": ["universal", "distributed", "ml-serving", "recommendation", "ecommerce", "realtime-iot", "multi-tenancy"],
+      "keywords": ["失败", "重试", "超时", "降级", "熔断", "兜底", "退避", "容错", "限流", "异常处理"]
+    },
+    {
+      "id": "messaging-delivery",
+      "file": "contracts/messaging-delivery.md",
+      "title": "消息投递语义",
+      "domains": ["distributed", "ecommerce", "data-pipeline"],
+      "keywords": ["消息", "队列", "MQ", "事件", "投递", "at-least-once", "exactly-once", "死信", "顺序", "消费"]
+    },
+    {
+      "id": "partition-tolerance",
+      "file": "contracts/partition-tolerance.md",
+      "title": "分区容错与共识",
+      "domains": ["distributed", "multi-tenancy"],
+      "keywords": ["分区", "CAP", "脑裂", "共识", "多数派", "副本", "时钟", "因果序", "背压", "流控", "集群"]
+    },
+    {
+      "id": "training-serving-skew",
+      "file": "contracts/training-serving-skew.md",
+      "title": "训练-服务一致性",
+      "domains": ["ml-serving", "recommendation"],
+      "keywords": ["训练", "推理", "特征", "skew", "穿越", "未来信息", "标签泄漏", "可复现", "模型版本", "特征一致"]
+    },
+    {
+      "id": "inference-serving",
+      "file": "contracts/inference-serving.md",
+      "title": "推理服务稳定性",
+      "domains": ["ml-serving", "recommendation"],
+      "keywords": ["推理", "超时", "降级", "NaN", "数值稳定", "漂移", "drift", "显存", "批处理", "模型服务"]
+    },
+    {
+      "id": "recommendation-serving",
+      "file": "contracts/recommendation-serving.md",
+      "title": "推荐系统服务质量",
+      "domains": ["recommendation"],
+      "keywords": ["推荐", "召回", "排序", "冷启动", "曝光", "去重", "疲劳", "新鲜度", "多样性", "信息流", "兜底", "白屏"]
+    },
+    {
+      "id": "financial-reconciliation",
+      "file": "contracts/financial-reconciliation.md",
+      "title": "资金与对账",
+      "domains": ["ecommerce"],
+      "keywords": ["资金", "对账", "账务", "支付", "回调", "扣款", "勾稽", "守恒", "价格", "优惠", "退款", "金额"]
+    },
+    {
+      "id": "inventory-fulfillment",
+      "file": "contracts/inventory-fulfillment.md",
+      "title": "库存与履约",
+      "domains": ["ecommerce"],
+      "keywords": ["库存", "超卖", "扣减", "预占", "释放", "秒杀", "履约", "发货", "Saga", "补偿", "订单"]
+    },
+    {
+      "id": "api-compatibility",
+      "file": "contracts/api-compatibility.md",
+      "title": "接口兼容性",
+      "domains": ["engineering", "distributed"],
+      "keywords": ["接口", "兼容", "版本", "schema", "向后兼容", "破坏性变更", "契约测试", "CDC", "字段", "枚举"]
+    },
+    {
+      "id": "config-release-safety",
+      "file": "contracts/config-release-safety.md",
+      "title": "配置变更与发布安全",
+      "domains": ["engineering"],
+      "keywords": ["配置", "发布", "灰度", "回滚", "上线", "依赖", "循环依赖", "DAG", "变更", "CI", "部署"]
+    },
+    {
+      "id": "abuse-security",
+      "file": "contracts/abuse-security.md",
+      "title": "防滥用与安全边界",
+      "domains": ["universal", "ecommerce", "recommendation", "engineering", "distributed", "realtime-iot"],
+      "keywords": ["防重放", "nonce", "越权", "鉴权", "权限", "限流", "防刷", "薅羊毛", "安全", "签名", "风控"]
+    },
+    {
+      "id": "data-pipeline",
+      "file": "contracts/data-pipeline.md",
+      "title": "大数据批流处理",
+      "domains": ["data-pipeline", "distributed"],
+      "keywords": ["流处理", "批处理", "ETL", "数仓", "exactly-once", "水位线", "watermark", "迟到", "乱序", "窗口", "checkpoint", "状态", "流批一致", "Flink", "Spark"]
+    },
+    {
+      "id": "realtime-iot",
+      "file": "contracts/realtime-iot.md",
+      "title": "实时系统与 IoT",
+      "domains": ["realtime-iot", "distributed"],
+      "keywords": ["实时", "时延", "IoT", "设备", "离线", "断连", "MQTT", "指令", "下发", "时序", "采样", "边缘", "时钟漂移", "新鲜度"]
+    },
+    {
+      "id": "multi-tenancy",
+      "file": "contracts/multi-tenancy.md",
+      "title": "多租户与资源隔离",
+      "domains": ["multi-tenancy", "engineering", "distributed"],
+      "keywords": ["多租户", "租户", "tenant", "隔离", "串台", "配额", "quota", "噪声邻居", "资源隔离", "SaaS", "限流", "超售"]
+    },
+    {
+      "id": "media-streaming",
+      "file": "contracts/media-streaming.md",
+      "title": "音视频传输与实时通信",
+      "domains": ["media-streaming", "distributed"],
+      "keywords": ["音视频", "直播", "RTC", "WebRTC", "RTMP", "HLS", "编解码", "码率", "ABR", "丢包", "抖动", "音画同步", "卡顿", "推流", "拉流", "弱网"]
+    },
+    {
+      "id": "storage-durability",
+      "file": "contracts/storage-durability.md",
+      "title": "存储持久化与缓存一致性",
+      "domains": ["storage", "universal", "distributed", "data-pipeline"],
+      "keywords": ["持久化", "落盘", "fsync", "刷盘", "缓存", "缓存一致", "击穿", "雪崩", "穿透", "原子写", "半截数据", "孤儿", "容量", "配额", "磁盘满", "对象存储", "副本"]
+    },
+    {
+      "id": "observability",
+      "file": "contracts/observability.md",
+      "title": "可观测性与监控告警",
+      "domains": ["observability", "engineering", "distributed", "multi-tenancy", "universal"],
+      "keywords": ["监控", "告警", "日志", "埋点", "指标", "metrics", "trace", "链路追踪", "可观测", "漏报", "告警风暴", "脱敏", "SLA", "trace-id", "采样", "背压"]
+    },
+    {
+      "id": "time-correctness",
+      "file": "contracts/time-correctness.md",
+      "title": "时间与时区正确性",
+      "domains": ["universal", "distributed", "engineering", "data-pipeline", "realtime-iot", "ecommerce"],
+      "keywords": ["时间", "时区", "timezone", "UTC", "夏令时", "DST", "时钟回拨", "单调时钟", "monotonic", "墙上时钟", "超时计时", "有效期", "过期", "边界时刻", "差一", "闰年", "闰日", "定时", "cron", "调度漂移", "时间戳", "ISO-8601"]
+    },
+    {
+      "id": "resource-lifecycle",
+      "file": "contracts/resource-lifecycle.md",
+      "title": "资源生命周期与泄漏",
+      "domains": ["universal", "engineering", "distributed", "storage", "multi-tenancy"],
+      "keywords": ["资源泄漏", "句柄", "文件描述符", "fd", "连接泄漏", "内存泄漏", "协程泄漏", "goroutine", "连接池", "线程池", "借还", "defer", "try-finally", "RAII", "use-after-close", "double-free", "优雅停机", "graceful shutdown", "SIGTERM", "释放", "回收", "在途请求"]
+    }
+  ]
+}

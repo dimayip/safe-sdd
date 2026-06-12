@@ -1,0 +1,9 @@
+{
+  "skill_version": "1.0.0",
+  "template_lib_version": "2026.06.12.2",
+  "template_lib_index_schema": "2.0",
+  "min_skill_required": "1.0.0",
+  "source": "git@github.com:your-org/contract-templates.git",
+  "source_branch": "main",
+  "description": "本地版本快照。skill_version 为本 skill 逻辑版本（低频变动）；template_lib_version 为契约模板库版本（高频变动）；min_skill_required 是该模板库要求的最低 skill 版本，update.sh 据此拦截不兼容升级。"
+}
