@@ -8,9 +8,6 @@ workspace/contract-guard/book/docs/.vitepress/dist/
 # PDF export output
 workspace/contract-guard/book/可验证契约手册.pdf
 
-# Lock file
-workspace/contract-guard/book/package-lock.json
-
 # OS files
 .DS_Store
 Thumbs.db
