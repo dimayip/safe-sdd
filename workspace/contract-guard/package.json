@@ -1,0 +1,14 @@
+{
+  "name": "contract-guard-book-site",
+  "version": "1.0.0",
+  "description": "contract-guard 可验证契约手册 · VitePress 站点构建入口",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev book/docs",
+    "build": "vitepress build book/docs",
+    "preview": "vitepress preview book/docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}
