@@ -54,5 +54,4 @@ title: 防滥用与安全边界契约
 - SEC-1 的 nonce 去重借鉴 [幂等 IDEM](/universal/idempotency)；SEC-3 限流与 [失败重试 FR-3](/universal/failure-retry)、[分区容错 PT-3](/distributed/partition-tolerance) 的背压互补。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

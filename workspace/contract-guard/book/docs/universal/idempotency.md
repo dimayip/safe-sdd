@@ -49,5 +49,4 @@ title: 幂等性契约
 - 是 [消息投递 MSG-1](/distributed/messaging-delivery) 消费幂等、[失败重试 FR-2](/universal/failure-retry) 重试安全、[资金对账 FIN-2](/ecommerce/financial-reconciliation) 防重复入账、[库存 INV-2](/ecommerce/inventory-fulfillment) 释放幂等的共同底座。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

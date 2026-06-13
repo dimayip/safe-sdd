@@ -52,5 +52,4 @@ title: 库存与履约契约
 - INV-1 依赖 [并发 CONC-2](/universal/concurrency)；INV-2 依赖 [幂等 IDEM-1](/universal/idempotency)；INV-3 依赖 [数据一致性 DC-1](/universal/data-consistency)。是多条通用契约的组合落地范例。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

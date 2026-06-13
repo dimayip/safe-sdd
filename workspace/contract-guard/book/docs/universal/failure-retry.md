@@ -53,5 +53,4 @@ title: 失败与重试契约
 - FR-2 的重试安全依赖 [幂等 IDEM-1](/universal/idempotency)；FR-3 的资源耗尽防护与 [资源生命周期 RES](/universal/resource-lifecycle) 相关。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

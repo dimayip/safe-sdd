@@ -54,5 +54,4 @@ title: 消息投递语义契约
 - MSG-1 直接依赖 [幂等 IDEM-1](/universal/idempotency)；与 [数据管道 DP](/engineering/data-pipeline) 的 exactly-once 语义衔接。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

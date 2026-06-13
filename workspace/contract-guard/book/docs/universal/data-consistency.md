@@ -48,5 +48,4 @@ title: 数据一致性契约
 - [库存履约 INV-3](/ecommerce/inventory-fulfillment) 的 Saga 式补偿、[存储原子写 SD-3](/distributed/storage-durability) 都是 DC-1 在具体领域的落地。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

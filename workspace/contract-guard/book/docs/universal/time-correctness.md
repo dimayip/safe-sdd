@@ -54,5 +54,4 @@ title: 时间与时区正确性契约
 - 与 [数据管道 DP](/engineering/data-pipeline) 的水位线、[实时 IoT RT](/engineering/realtime-iot) 的时序新鲜度强相关。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

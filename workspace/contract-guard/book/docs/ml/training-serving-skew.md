@@ -52,5 +52,4 @@ title: 训练-服务一致性契约
 - 与 [推理稳定 INF](/ml/inference-serving)、[数据一致性 DC](/universal/data-consistency)、[时间正确性 TIME](/universal/time-correctness)（point-in-time）协同。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

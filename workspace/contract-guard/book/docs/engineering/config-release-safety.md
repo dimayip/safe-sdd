@@ -52,5 +52,4 @@ title: 配置变更与发布安全契约
 - CRS-1 的回滚与 [资源生命周期 RES-3](/universal/resource-lifecycle) 的优雅停机协同；与 [接口兼容 API](/engineering/api-compatibility) 共同保障发布安全。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

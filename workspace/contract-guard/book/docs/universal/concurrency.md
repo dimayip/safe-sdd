@@ -54,5 +54,4 @@ title: 并发竞态契约
 - [库存履约 INV-1](/ecommerce/inventory-fulfillment) 的"不超卖"直接依赖 CONC-2；[资源生命周期 RES-3](/universal/resource-lifecycle) 的关闭竞态与本契约互补。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

@@ -52,5 +52,4 @@ title: 分区容错与共识契约
 - 与 [数据一致性 DC-2](/universal/data-consistency) 的一致性语义、[失败重试 FR-3](/universal/failure-retry) 的防雪崩协同。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

@@ -52,5 +52,4 @@ title: 大数据批流处理契约
 - DP-1 依赖 [幂等 IDEM-1](/universal/idempotency) 与 [消息投递 MSG-1](/distributed/messaging-delivery)；时间语义依赖 [时间正确性 TIME](/universal/time-correctness)。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

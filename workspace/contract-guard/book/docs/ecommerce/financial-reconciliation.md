@@ -52,5 +52,4 @@ title: 资金与对账契约
 - FIN-2 直接依赖 [幂等 IDEM-1](/universal/idempotency) 与 [消息投递 MSG-1](/distributed/messaging-delivery)；与 [数据一致性 DC-1](/universal/data-consistency) 的勾稽不变式同源。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

@@ -47,5 +47,4 @@ title: 边界与空值契约
 - [配置发布 CRS-2](/engineering/config-release-safety) 的配置校验直接依赖 BN-1。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

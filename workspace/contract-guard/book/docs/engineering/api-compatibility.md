@@ -44,5 +44,4 @@ title: 接口兼容性契约
 - 与 [配置发布 CRS](/engineering/config-release-safety) 的灰度回滚协同；schema 校验依赖 [边界空值 BN-1](/universal/boundary-nullness)。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

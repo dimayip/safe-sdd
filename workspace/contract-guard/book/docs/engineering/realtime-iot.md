@@ -54,5 +54,4 @@ title: 实时系统与 IoT 契约
 - RT-2/RT-3 的去重依赖 [幂等 IDEM-1](/universal/idempotency)；数据新鲜度依赖 [时间正确性 TIME](/universal/time-correctness)。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

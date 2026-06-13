@@ -63,5 +63,4 @@ title: 存储持久化与缓存一致性契约
 - 是 [数据一致性 DC-1](/universal/data-consistency) 在存储层的落地；与 [资源生命周期 RES-2](/universal/resource-lifecycle) 的连接管理相关。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

@@ -57,5 +57,4 @@
 | 串联 | 留意每条里的"依赖 XXX" | 理解契约之间如何组合复用 |
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>

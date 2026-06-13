@@ -52,5 +52,4 @@ title: 音视频传输与实时通信契约
 - 弱网容错与 [失败重试 FR](/universal/failure-retry)、[实时 IoT RT-1](/engineering/realtime-iot) 的时延控制思路相通；时间戳对齐依赖 [时间正确性 TIME](/universal/time-correctness)。
 
 <div style="text-align:center;margin-top:48px;color:var(--vp-c-text-3);">
-  <p>由 <a href="https://with.woa.com/" style="color: #8A2BE2;" target="_blank">With</a> 通过自然语言生成</p>
 </div>
