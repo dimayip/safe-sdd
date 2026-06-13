@@ -1,0 +1,12 @@
+@media print {
+  .VPNav,
+  .VPLocalNav,
+  .VPDocFooter,
+  .VPSidebar {
+    display: none !important;
+  }
+
+  .VPContent {
+    padding: 0 !important;
+  }
+}

@@ -5,7 +5,7 @@ export default defineConfig({
   title: '可验证契约手册',
   description: 'contract-guard 契约模板库 · Handbook + Cookbook · 23 条可验证契约',
   lang: 'zh-CN',
-  base: '/',
+  base: '/sdd-safe/',
   lastUpdated: true,
   cleanUrls: true,
 
@@ -21,7 +21,8 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '导读', link: '/guide/intro' },
       { text: '场景速查 (Cookbook)', link: '/guide/how-to-read' },
-      { text: '契约总览', link: '/guide/overview' }
+      { text: '契约总览', link: '/guide/overview' },
+      { text: '📥 下载 PDF', link: 'https://github.com/dimayip/sdd-safe/raw/main/workspace/contract-guard/book/可验证契约手册.pdf' }
     ],
 
     sidebar: [

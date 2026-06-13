@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: 23 条总览
       link: /guide/overview
+    - theme: alt
+      text: 📥 下载 PDF
+      link: https://github.com/dimayip/sdd-safe/raw/main/workspace/contract-guard/book/可验证契约手册.pdf
 
 features:
   - icon: 🧩
