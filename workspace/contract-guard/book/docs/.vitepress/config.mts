@@ -22,7 +22,7 @@ export default defineConfig({
       { text: '导读', link: '/guide/intro' },
       { text: '场景速查 (Cookbook)', link: '/guide/how-to-read' },
       { text: '契约总览', link: '/guide/overview' },
-      { text: '📥 下载 PDF', link: 'https://github.com/dimayip/sdd-safe/raw/main/workspace/contract-guard/book/可验证契约手册.pdf' }
+      { text: '📥 下载 PDF', link: 'https://github.com/dimayip/sdd-safe/releases/download/v1.0.0/可验证契约手册.pdf' }
     ],
 
     sidebar: [
