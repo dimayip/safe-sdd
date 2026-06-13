@@ -29,7 +29,7 @@ jobs:
           cache-dependency-path: workspace/contract-guard/book/package-lock.json
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
         working-directory: workspace/contract-guard/book
 
       - name: Build with VitePress
